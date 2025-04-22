@@ -101,7 +101,7 @@ const Card = ({ image }: { image: IImage }) => {
                     height={image.height}
                     {...image.config}
                     loading="lazy"
-                    className="h-52 w-full rounded-[10px] object-cover"
+                    className="h-52 w-full rounded-sm object-cover"
                     sizes="(max-width: 767px) 100vw, (max-width: 1279px) 50vw, 33vw"
                 />
                 <div className="flex-between">

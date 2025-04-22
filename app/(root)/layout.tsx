@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 </div>
             </div>
 
-            <Toaster />
+            <Toaster richColors />
         </main>
     )
 }

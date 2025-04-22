@@ -296,7 +296,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
                         className="submit-button capitalize"
                         disabled={isSubmitting}
                     >
-                        {isSubmitting ? "Submitting..." : "Save Image"}
+                        {isSubmitting ? "Submitting..." : "Save your Image on ImaginAI's cloud"}
                     </Button>
                 </div>
             </form>
