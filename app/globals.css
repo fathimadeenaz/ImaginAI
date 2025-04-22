@@ -247,7 +247,7 @@
   @apply flex items-center gap-2 md:py-2;
 }
 @utility sidebar-nav {
-  @apply h-full flex-col justify-between md:flex md:gap-4;
+  @apply h-full flex-col justify-between md:flex md:gap-4 relative;
 }
 @utility sidebar-nav_elements {
   @apply hidden w-full flex-col items-start gap-2 md:flex;
